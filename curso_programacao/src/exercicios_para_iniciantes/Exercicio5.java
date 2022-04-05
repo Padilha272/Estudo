@@ -29,6 +29,8 @@ public class Exercicio5 {
 		
 		System.out.printf("VALOR A PAGAR: R$ %.2f",total);
 		
+		leia.close();
+		
 
 	}
 
