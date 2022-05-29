@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 import entities.Cinema;
 
+
 public class CinemaApp {
 
 	public static void main(String[] args) {
@@ -11,9 +12,8 @@ public class CinemaApp {
 		Cinema ingresso = new Cinema("", "", "");
 		String nome ="",cpf="",tipo="";
 		//ingresso.compraIngresso(nome, cpf, tipo);
-		ingresso.lugar();
-		
-		
+		//ingresso.lugar();
+		ingresso.uci();
 		
 	}
 
